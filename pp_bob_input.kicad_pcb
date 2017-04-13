@@ -3,7 +3,7 @@
   (general
     (links 95)
     (no_connects 1)
-    (area 25.387299 25.387299 124.218701 97.548701)
+    (area 25.387299 24.1874 124.460001 98.675)
     (thickness 1.6)
     (drawings 49)
     (tracks 388)
@@ -1120,7 +1120,7 @@
   (gr_text "BBB CONNECTOR 3V3 LOGIC ONLY" (at 34.925 51.435 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
-  (gr_text "BBB CNC PORT 2\n13 LINE INPUT  \n4 LINE OUTPUT\nINTERFACE REV 0.1" (at 116.586 57.15 90) (layer F.SilkS)
+  (gr_text "BBB CNC PORT 2\n13 LINE INPUT  \n4 LINE OUTPUT\nINTERFACE REV 0.2" (at 116.586 57.15 90) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)) (justify left))
   )
   (gr_text +5V (at 79.375 89.535) (layer F.SilkS)
