@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/rmurphy/kicad_prj/pp_bob_input/pp_bob_input.sch)
-    (date "Thu 13 Apr 2017 15:03:03 AEST")
+    (date "Thu 13 Apr 2017 21:23:13 AEST")
     (tool "Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -342,14 +342,14 @@
         (pin (num 11) (name ~) (type passive))
         (pin (num 12) (name ~) (type passive)))))
   (libraries
-    (library (logical pp_bob_input-cache)
-      (uri /home/rmurphy/kicad_prj/pp_bob_input/pp_bob_input-cache.lib))
+    (library (logical pp_bob_input-rescue)
+      (uri /home/rmurphy/kicad_prj/pp_bob_input/pp_bob_input-rescue.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical pp_bob_input-rescue)
-      (uri /home/rmurphy/kicad_prj/pp_bob_input/pp_bob_input-rescue.lib)))
+    (library (logical pp_bob_input-cache)
+      (uri /home/rmurphy/kicad_prj/pp_bob_input/pp_bob_input-cache.lib)))
   (nets
     (net (code 1) (name "Net-(RN2-Pad2)")
       (node (ref RN2) (pin 2))
