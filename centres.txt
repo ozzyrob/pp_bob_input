@@ -1,0 +1,23 @@
+Centre:     1.945
+Spacing:    0.597795275        
+J_OUT_1 x:  2.841692913
+J_OUT_2 x:  2.243897638
+J_OUT_3 x:  1.646102362 
+J_OUT_4 x:  1.048328346
+
+Centre:     1.420
+Spacing:    0.460
+J_IN_1 y:   2.340
+J_IN_2 y:   1.880
+J_IN_3 y:   1.420
+J_IN_4 y:   0.960
+J_IN_5 y:   0.500
+
+Centre:     1.945
+Spacing:    0.460
+J_OUT_5 x:  1.255
+J_OUT_6 x:  1.715
+J_OUT_7 x:  2.175
+J_OUT_8 x:  2.635
+
+P4 x(3.615) y(2.615)
