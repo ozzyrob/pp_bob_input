@@ -523,14 +523,14 @@ F 3 "" H 1700 725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_1x12 J_OUT_2
+L Screw_Terminal_1x03 J_OUT_5
 U 1 1 58F01EB1
-P 6350 2400
-F 0 "J_OUT_2" H 6350 3675 50  0000 C TNN
-F 1 "ST_1x12" V 6200 2400 50  0000 C TNN
-F 2 "w_conn_pt-1,5:pt_1,5-12-3,5-h" H 6350 1975 50  0001 C CNN
-F 3 "" H 6325 2600 50  0001 C CNN
-	1    6350 2400
+P 6350 1500
+F 0 "J_OUT_5" H 6125 1725 50  0000 C TNN
+F 1 "ST_1x03" V 6200 1375 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 6350 1075 50  0001 C CNN
+F 3 "" H 6325 1700 50  0001 C CNN
+	1    6350 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -548,17 +548,6 @@ NoConn ~ 8200 2475
 NoConn ~ 8200 2375
 NoConn ~ 8200 2275
 NoConn ~ 8200 2175
-$Comp
-L Screw_Terminal_1x15 J_IN_5
-U 1 1 58F030F1
-P 1175 2000
-F 0 "J_IN_5" H 1175 3250 50  0000 C TNN
-F 1 "ST_1x15" V 1025 2000 50  0000 C TNN
-F 2 "w_conn_pt-1,5:pt_1,5-15-3,5-h" H 1175 775 50  0001 C CNN
-F 3 "" H 1150 3000 50  0001 C CNN
-	1    1175 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L R_Network08 RN1
 U 1 1 58F1D7D5
@@ -1173,6 +1162,94 @@ Connection ~ 7675 2575
 Wire Wire Line
 	2150 4175 3100 4175
 Connection ~ 9700 2475
-Text Label 2750 5150 0    50   ~ 0
+$Comp
+L Screw_Terminal_1x03 J_IN_5
+U 1 1 58FDD36D
+P 1175 1100
+F 0 "J_IN_5" H 1000 1325 50  0000 C TNN
+F 1 "ST_1x03" V 1025 975 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 1175 675 50  0001 C CNN
+F 3 "" H 1150 1300 50  0001 C CNN
+	1    1175 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_IN_6
+U 1 1 58FDD8CB
+P 1175 1700
+F 0 "J_IN_6" H 1000 1925 50  0000 C TNN
+F 1 "ST_1x03" V 1025 1575 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 1175 1275 50  0001 C CNN
+F 3 "" H 1150 1900 50  0001 C CNN
+	1    1175 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_IN_7
+U 1 1 58FDDFC7
+P 1175 2300
+F 0 "J_IN_7" H 1000 2525 50  0000 C TNN
+F 1 "ST_1x03" V 1025 2175 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 1175 1875 50  0001 C CNN
+F 3 "" H 1150 2500 50  0001 C CNN
+	1    1175 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_IN_8
+U 1 1 58FDE5AC
+P 1175 2900
+F 0 "J_IN_8" H 1000 3125 50  0000 C TNN
+F 1 "ST_1x03" V 1025 2775 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 1175 2475 50  0001 C CNN
+F 3 "" H 1150 3100 50  0001 C CNN
+	1    1175 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_IN_9
+U 1 1 58FDE6B1
+P 1175 3500
+F 0 "J_IN_9" H 1000 3725 50  0000 C TNN
+F 1 "ST_1x03" V 1025 3375 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 1175 3075 50  0001 C CNN
+F 3 "" H 1150 3700 50  0001 C CNN
+	1    1175 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_OUT_6
+U 1 1 58FE2DE0
+P 6350 2100
+F 0 "J_OUT_6" H 6125 2325 50  0000 C TNN
+F 1 "ST_1x03" V 6200 1975 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 6350 1675 50  0001 C CNN
+F 3 "" H 6325 2300 50  0001 C CNN
+	1    6350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_OUT_7
+U 1 1 58FE2F74
+P 6350 2700
+F 0 "J_OUT_7" H 6125 2925 50  0000 C TNN
+F 1 "ST_1x03" V 6200 2575 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 6350 2275 50  0001 C CNN
+F 3 "" H 6325 2900 50  0001 C CNN
+	1    6350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_OUT_8
+U 1 1 58FE367E
+P 6350 3300
+F 0 "J_OUT_8" H 6125 3525 50  0000 C TNN
+F 1 "ST_1x03" V 6200 3175 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 6350 2875 50  0001 C CNN
+F 3 "" H 6325 3500 50  0001 C CNN
+	1    6350 3300
+	1    0    0    -1  
+$EndComp
+Text Label 2750 5150 0    40   ~ 0
 IN-03
 $EndSCHEMATC
