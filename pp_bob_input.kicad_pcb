@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
 
   (general
     (links 129)
     (no_connects 0)
-    (area 25.387299 25.387299 124.218701 97.548701)
+    (area 25.248095 24.035 124.706 99.001)
     (thickness 1.6)
-    (drawings 78)
+    (drawings 80)
     (tracks 372)
     (zones 0)
     (modules 38)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (33 F.Adhes user)
     (35 F.Paste user)
     (37 F.SilkS user)
@@ -31,7 +31,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (user_trace_width 0.0254)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
@@ -2044,6 +2044,12 @@
     )
   )
 
+  (gr_text DGND (at 38.1 81.915) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify left))
+  )
+  (gr_text 3v3 (at 38.1 84.455) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify left))
+  )
   (gr_text PD (at 90.4875 42.2275) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
@@ -2232,10 +2238,10 @@
   (gr_text "PWR IN" (at 36.195 78.74) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
-  (gr_text VDD (at 38.1 89.535) (layer F.SilkS)
+  (gr_text SYS (at 38.1 89.535) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify left))
   )
-  (gr_text SYS (at 38.1 86.995) (layer F.SilkS)
+  (gr_text VDD (at 38.1 86.995) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify left))
   )
   (gr_line (start 25.4 25.4) (end 25.4 97.536) (angle 90) (layer Edge.Cuts) (width 0.0254))
